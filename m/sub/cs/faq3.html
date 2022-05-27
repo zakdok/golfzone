@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>골프존 광고센터</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=medium-dpi" />
+<!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="../../css/main.css?ver=202104301430" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="../../css/sub.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="../../css/reset.css" media="screen,print" />
+<script src="../../js/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <div class="top_menu_defult">
+            <div>
+                <a href="../../index.html">
+                    <img src="../../images/main/img_logo_defult.png" alt="골프존" />
+                </a>
+            </div>
+            <div>
+                <img src="../../images/main/img_top_menu_defult.png" alt="메뉴 " class="top_menu_on" />
+            </div>
+        </div><!-- 페이지 접속시 기본 상태 -->
+        <div class="top_menu_scroll">
+            <div>
+                <a href="../../index.html">
+                    <img src="../../images/main/img_logo_scroll.png" alt="골프존" />
+                </a>
+            </div>
+            <div>
+                <img src="../../images/main/img_top_menu_scroll.png" alt="메뉴 " class="top_menu_on" />
+            </div>
+        </div><!-- 스크롤 시작시 -->
+        <div class="top_menu_on_wrap">
+            <div class="top_menu_on_head">
+                <div style="border-bottom:2px solid #1a7dbe;width:calc(100% - 1.5rem);padding:1.5rem">
+                    <div>
+                        <a href="../../index.html">
+                            <img src="../../images/main/img_logo_defult.png" alt="골프존" />
+                        </a>
+                    </div>
+                    <div>
+                        <img src="../../images/main/btn_top_menu_close.png" alt="메뉴 " class="top_menu_close" />
+                    </div>
+                </div>
+                <div class="top_menu_on_head_menu">
+                    <ul>
+                        <li><a href="../cs/faq.html">FAQ</a></li>
+                        <li><a href="https://www.golfzon.com/customer/inquiry/advertisement" >문의하기</a></li>
+                    </ul>
+                </div>
+                <div class="top_menu_on_etc">
+                    <p>매체소개서를 확인하세요!</p>
+                    <p><a href="http://adcenter.golfzon.com/file/golfzon_introduce_202103.pdf" ><img src="../../images/main/btn_top_menu_down.png" alt="매체소개서" /></a></p>
+                </div>
+            </div>
+            <div class="top_menu_on_nav">
+                <ul style="width:100%">
+                    <li>스크린 광고
+                        <ul>
+                            <li><a href="../screen/practice.html">연습장 광고</a></li>
+                            <li><a href="../screen/ingame.html">게임중 광고</a></li>
+                        </ul>
+                    </li>
+                    <li>이벤트/대회 스폰서십
+                        <ul>
+                            <li><a href="../eventship/event.html">이벤트 스폰서십</a></li>
+                            <li><a href="../eventship/championship.html">대회 스폰서십</a></li>
+                        </ul>
+                    </li>
+                    <li>골프존닷컴
+                        <ul>
+                            <li><a href="../golfzon/web.html">Web 광고</a></li>
+                            <li><a href="../golfzon/app.html">APP 광고</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../marketingsolution/marketing.html">마케팅 솔루션 사례</a></li>
+                    <li><a href="../addzone/addzone.html">광고지면</a></li>
+                    <li><a href="../partnership/partnership.html">골프장 제휴</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //header -->
+    <!-- container -->
+    <div id="container">
+    <!-- content -->
+        <div id="content">
+            <div class="sub_faq_top_visual">
+                <h1>FAQ</h1>                
+            </div>
+            <div class="sub_path">
+                <p>홈<img src="../../images/sub/ico_sub_page_nav_next.png" /><b>FAQ</b></p>
+            </div>
+            <div>
+                <div class="sub_tab_wrap">
+                    <ul>
+                        <li class="on">광고소재</li>
+                        <div>
+                            <li><a href="faq.html">전체</a></li>
+                            <li><a href="faq1.html">집행절차</a></li>
+                            <li><a href="faq2.html">광고노출</a></li>
+                            <li><a href="faq4.html">광고비/기간</a></li>
+                            <li><a href="faq5.html">광고정책</a></li>
+                            <li><a href="faq6.html">기타</a></li>
+                         </div>
+                    </ul>
+                </div>
+            </div>
+            <script>
+               $(document).ready(function(){
+                    $( window ).scroll(function() {
+                        $('.top_menu_defult').hide();
+                        $( ".top_menu_scroll" ).show();
+                        if($(window).scrollTop() == 0){ 
+                            $('.top_menu_defult').show();
+                            $('.top_menu_scroll').hide();
+                        }
+                    });
+                    $('.top_menu_on').click(function(){
+                        $('.top_menu_on_wrap').show()
+                    })
+                    $('.top_menu_close').click(function(){
+                        $('.top_menu_on_wrap').hide();
+                    })
+
+                    $('.top_menu_on_nav ul li').click(function(){
+                        $('.top_menu_on_nav ul li').removeClass('on')
+                        $('.top_menu_on_nav ul li ul').hide()
+                        $(this).addClass('on')
+                        $(this).children().show()
+                    })
+                    $("dt").css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                    $("dt").click(function(){
+                        if($("+dd",this).css("display")=="none"){
+                            $("dt").css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                            $("dd").slideUp("fast");
+                            $("+dd",this).slideDown("fast");
+                            $(this).css('background-color','#fdfdfd');
+                            $(this).css("background-image","url('../../images/main/img_dt_on.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                        }
+                        else{
+                            $("dd").slideUp("fast");
+                            $(this).css('background-color','white');
+                            $(this).css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                        }
+                    });
+                    var floatPosition = parseInt($("#floatMenu").css('top'));
+                    // 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+                    $(window).scroll(function() {
+                        // 현재 스크롤 위치를 가져온다.
+                        var scrollTop = $(window).scrollTop();
+                        var newPosition = scrollTop + floatPosition + "px";
+                        /* 애니메이션 없이 바로 따라감 */
+                        $("#floatMenu").css('top', newPosition);
+                        $("#floatMenu").stop().animate({
+                            "top" : newPosition
+                        }, 500);
+                    }).scroll();
+
+                    var i = $('.sub_tab_wrap ul li.on').clone()
+
+                    $('.sub_tab_wrap ul li.on').click(function(){
+                        $('.sub_tab_wrap ul li.on').css('border-bottom','2px solid #0084dc')
+                        if($('.sub_tab_wrap ul div').css('display')=='none'){
+                            $('.sub_tab_wrap ul div').slideDown("fast");
+                        }
+                        else{
+                            $('.sub_tab_wrap ul div').slideUp("fast");
+                            $('.sub_tab_wrap ul li.on').css('border-bottom','none')
+                        }
+                    })
+                    
+                })
+            </script>
+            <style>
+                dd{background:#f7f8f9}
+            </style>
+            <div class="sub_cont" style="margin-top:7rem">
+                <div class="faq_wrap">
+                    <div class="faq">
+                        <div>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>소재 검수 시간은 얼마나 되나요?</p>
+                                </dt>
+                                <dd>
+                                    소재에 대한 검수는 플랫폼에 등록되는 순서에 따라서 진행되며 보통 만 하루를 넘지 않습니다.<br />
+                                    예상치 못한 수정이 발생하는 것을 감안하여 광고 집행일 기준으로 늦어도 4~5일 전에는 1차 검수를 진행하는 것을 추천드립니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>광고 소재 검수는 어떻게 진행되나요?</p>
+                                </dt>
+                                <dd>
+                                    광고 소재 검수는 광고주께서 전달해 주신 소재가 가이드에 맞게 제작되었는지를 검수자가 확인하며,<br />
+                                    제작가이드에 위배되는 부분이 발견되는 경우 수정 요청을 드리게 됩니다.<br />상품 별 제작가이드는 담당자를 통해 확인 부탁드립니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>광고 소재 제작은 누가 하나요?</p>
+                                </dt>
+                                <dd>
+                                    골프존은 광고를 게재하는 매체이며, 광고 집행을 위한 소재를 제작해 드리지 않습니다.<br />
+                                    광고 소재는 직접 제작하시거나, 전문업체(대행사)에 위탁하셔야합니다.<br />
+                                    또한 소재 제작은 제작가이드에 따라 제작해 주셔야 하며,<br />제작가이드에 위배되는 경우 소재를 수정해 주셔야 광고 게재가 가능합니다.
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //content -->
+    </div>
+    <!-- //container -->
+    <!-- footer -->
+    <div id="footer">
+        <address>
+            사업자등록번호 : 122-87-00053<br />
+            통신판매업신고번호 : 제2019-서울강남-01705호 <br />
+            ㈜골프존  대표이사 : 박강수/ 최덕형<br />
+            서울본사 : 서울특별시 강남구 영동대로 735 골프존타워서울<br />
+            대표전화 : 1577-4333<br />
+            대전사무소 : 대전광역시 유성구 엑스포로 97번길 40<br />
+            대표전화 : 1577-4333 
+        </address>
+        <p><a href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2019322023630201705&pageUnit=10&searchCnd=wrkr_no&searchKrwd=1228700053&pageIndex=1" 
+            >사업자정보확인</a></p> 
+        <span>Copyright (c) GOLFZON ALL rights reserved.</span>
+    </div>
+    <div class="scrollmenu_wrap" id="floatMenu">
+        <ul>
+            <li class="scr1"><a href="https://www.golfzon.com/customer/inquiry/advertisement" ><img src="../../images/main/img_scrollmenu1_1.png" alt="문의하기" /></a></li>
+            <!--<li class="scr2"><a href="sub/partnership/partnership.html"><img src="../../images/main/img_scrollmenu1_2.png" /></a></span>
+            </li>-->
+        </ul>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

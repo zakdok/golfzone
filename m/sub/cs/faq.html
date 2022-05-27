@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>골프존 광고센터</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=medium-dpi" />
+<!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="../../css/main.css?ver=202104301430" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="../../css/sub.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="../../css/reset.css" media="screen,print" />
+<script src="../../js/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <div class="top_menu_defult">
+            <div>
+                <a href="../../index.html">
+                    <img src="../../images/main/img_logo_defult.png" alt="골프존" />
+                </a>
+            </div>
+            <div>
+                <img src="../../images/main/img_top_menu_defult.png" alt="메뉴 " class="top_menu_on" />
+            </div>
+        </div><!-- 페이지 접속시 기본 상태 -->
+        <div class="top_menu_scroll">
+            <div>
+                <a href="../../index.html">
+                    <img src="../../images/main/img_logo_scroll.png" alt="골프존" />
+                </a>
+            </div>
+            <div>
+                <img src="../../images/main/img_top_menu_scroll.png" alt="메뉴 " class="top_menu_on" />
+            </div>
+        </div><!-- 스크롤 시작시 -->
+        <div class="top_menu_on_wrap">
+            <div class="top_menu_on_head">
+                <div style="border-bottom:2px solid #1a7dbe;width:calc(100% - 1.5rem);padding:1.5rem">
+                    <div>
+                        <a href="../../index.html">
+                            <img src="../../images/main/img_logo_defult.png" alt="골프존" />
+                        </a>
+                    </div>
+                    <div>
+                        <img src="../../images/main/btn_top_menu_close.png" alt="메뉴 " class="top_menu_close" />
+                    </div>
+                </div>
+                <div class="top_menu_on_head_menu">
+                    <ul>
+                        <li><a href="../cs/faq.html">FAQ</a></li>
+                        <li><a href="https://www.golfzon.com/customer/inquiry/advertisement" >문의하기</a></li>
+                    </ul>
+                </div>
+                <div class="top_menu_on_etc">
+                    <p>매체소개서를 확인하세요!</p>
+                    <p><a href="http://adcenter.golfzon.com/file/golfzon_introduce_202103.pdf" ><img src="../../images/main/btn_top_menu_down.png" alt="매체소개서" /></a></p>
+                </div>
+            </div>
+            <div class="top_menu_on_nav">
+                <ul style="width:100%">
+                    <li>스크린 광고
+                        <ul>
+                            <li><a href="../screen/practice.html">연습장 광고</a></li>
+                            <li><a href="../screen/ingame.html">게임중 광고</a></li>
+                        </ul>
+                    </li>
+                    <li>이벤트/대회 스폰서십
+                        <ul>
+                            <li><a href="../eventship/event.html">이벤트 스폰서십</a></li>
+                            <li><a href="../eventship/championship.html">대회 스폰서십</a></li>
+                        </ul>
+                    </li>
+                    <li>골프존닷컴
+                        <ul>
+                            <li><a href="../golfzon/web.html">Web 광고</a></li>
+                            <li><a href="../golfzon/app.html">APP 광고</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../marketingsolution/marketing.html">마케팅 솔루션 사례</a></li>
+                    <li><a href="../addzone/addzone.html">광고지면</a></li>
+                    <li><a href="../partnership/partnership.html">골프장 제휴</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //header -->
+    <!-- container -->
+    <div id="container">
+    <!-- content -->
+        <div id="content">
+            <div class="sub_faq_top_visual">
+                <h1>FAQ</h1>                
+            </div>
+            <div class="sub_path">
+                <p>홈<img src="../../images/sub/ico_sub_page_nav_next.png" /><b>FAQ</b></p>
+            </div>
+            <div>
+                <div class="sub_tab_wrap">
+                    <ul>
+                        <li class="on">전체</li>
+                        <div>
+                            <li><a href="faq1.html">집행절차</a></li>
+                            <li><a href="faq2.html">광고노출</a></li>
+                            <li><a href="faq3.html">광고소재</a></li>
+                            <li><a href="faq4.html">광고비/기간</a></li>
+                            <li><a href="faq5.html">광고정책</a></li>
+                            <li><a href="faq6.html">기타</a></li>
+                         </div>
+                    </ul>
+                </div>
+            </div>
+            <script>
+               $(document).ready(function(){
+                    $( window ).scroll(function() {
+                        $('.top_menu_defult').hide();
+                        $( ".top_menu_scroll" ).show();
+                        if($(window).scrollTop() == 0){ 
+                            $('.top_menu_defult').show();
+                            $('.top_menu_scroll').hide();
+                        }
+                    });
+                    $('.top_menu_on').click(function(){
+                        $('.top_menu_on_wrap').show()
+                    })
+                    $('.top_menu_close').click(function(){
+                        $('.top_menu_on_wrap').hide();
+                    })
+
+                    $('.top_menu_on_nav ul li').click(function(){
+                        $('.top_menu_on_nav ul li').removeClass('on')
+                        $('.top_menu_on_nav ul li ul').hide()
+                        $(this).addClass('on')
+                        $(this).children().show()
+                    })
+                    $("dt").css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                    $("dt").click(function(){
+                        if($("+dd",this).css("display")=="none"){
+                            $("dt").css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                            $("dd").slideUp("fast");
+                            $("+dd",this).slideDown("fast");
+                            $(this).css('background-color','#fdfdfd');
+                            $(this).css("background-image","url('../../images/main/img_dt_on.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                        }
+                        else{
+                            $("dd").slideUp("fast");
+                            $(this).css('background-color','white');
+                            $(this).css("background-image","url('../../images/main/img_dt_off.png')").css('background-repeat','no-repeat').css('background-position',' right 1rem top 50%');
+                        }
+                    });
+                    var floatPosition = parseInt($("#floatMenu").css('top'));
+                    // 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
+                    $(window).scroll(function() {
+                        // 현재 스크롤 위치를 가져온다.
+                        var scrollTop = $(window).scrollTop();
+                        var newPosition = scrollTop + floatPosition + "px";
+                        /* 애니메이션 없이 바로 따라감 */
+                        $("#floatMenu").css('top', newPosition);
+                        $("#floatMenu").stop().animate({
+                            "top" : newPosition
+                        }, 500);
+                    }).scroll();
+
+                    var i = $('.sub_tab_wrap ul li.on').clone()
+
+                    $('.sub_tab_wrap ul li.on').click(function(){
+                        $('.sub_tab_wrap ul li.on').css('border-bottom','2px solid #0084dc')
+                        if($('.sub_tab_wrap ul div').css('display')=='none'){
+                            $('.sub_tab_wrap ul div').slideDown("fast");
+                        }
+                        else{
+                            $('.sub_tab_wrap ul div').slideUp("fast");
+                            $('.sub_tab_wrap ul li.on').css('border-bottom','none')
+                        }
+                    })
+                    
+                })
+            </script>
+            <style>
+                dd{background:#f7f8f9}
+            </style>
+            <div class="sub_cont" style="margin-top:7rem">
+                <div class="faq_wrap">
+                    <div class="faq">
+                        <div>
+                            <dl>
+                                <dt>
+                                    <h3>집행절차</h3>
+                                    <p>광고 부킹 후 직전에 부득이하게 집행하지 못하였는데 위약금을 내야 하나요?</p>
+                                </dt>
+                                <dd>
+                                    아래 사유로 인하여 캠페인이 취소된 경우 증빙 서류 제출 후 위약금 면제가 가능합니다.<br /><br />
+                                    1. 천재지변, '광고주' 회사의 폐업 등 불가피한 사고 및 재난으로 인한 경우<br />
+                                    2. 제품 및 서비스의 출시가 광고 집행일 이후로 연기되어 전체 캠페인이 중단된 경우<br />
+                                    - 단, 해당 기간 모든 광고 매체에 광고 집행이 없어야하며, '출시'와 관계없는 기업PR과 같은 캠페인은 해당되지 않음<br />
+                                    3. '광고주' 회사 임직원의 구속, 제품결함이나 제품 모델 문제 등 업계 관행상 광고를 진행하기 어려운 부정적인 이슈가 발생하여 전체 캠페인이 중단된 경우<br />
+                                    4. 사회, 정치적 중대 사안이 발생하여 정상적인 마케팅 진행이 불가능하다고 '골프존'이 판단하는 경우<br />
+                                    5. '골프존'의 서비스, 플랫폼, 광고상품, 인적 귀책 사유로 인한 취소
+
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>집행절차</h3>
+                                    <p>광고 리포트는 어떻게 제공되나요?</p>
+                                </dt>
+                                <dd>
+                                    광고 리포트는 주단위 or 월단위 요청 기간에 따라 제공 가능합니다.<br />
+                                    리포트는 전일까지의 데이터 확인이 가능하며, 상황에 따라 일부 지연될 수 있습니다.<br />
+                                    또한, 광고 리포트는 본인의 캠페인 광고 결과에 대해서만 제공되며 타사의 광고 리포트는 제공되지 않습니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>집행절차</h3>
+                                    <p>몇개월 후에 집행할 광고를 미리 구매할 수 있나요?</p>
+                                </dt>
+                                <dd>
+                                    비어있는 구좌에 한하여 광고 집행일의 최대 4개월 이전까지 구매 가능합니다.<br />
+                                    단, 년이 넘어가는 광고는 제안이 있을 수 있음
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>집행절차</h3>
+                                    <p>광고를 집행하기까지 소요되는 시간을 알고 싶습니다.</p>
+                                </dt>
+                                <dd>
+                                    광고 구매(계약)에서 집행까지의 준비기간은 평균 1-2주 정도 소요되며, 소재 검수결과 등에<br /> 
+                                    따라 기간이 더 소요될 수 있습니다.<br />
+                                    따라서 광고를 처음 진행하시는 경우, 가급적 기간을 넉넉히 잡고 준비해주시는것이 좋습니다.
+
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>집행절차</h3>
+                                    <p>광고를 집행하려면 어떻게 해야하나요?</p>
+                                </dt>
+                                <dd>
+                                    골프존은 스크린광고 & 골프존닷컴 영역의 다양한 형태의 광고를 판매하고 있습니다.<br />
+                                    광고를 집행하고자 하는 경우, 해당 안내 페이지의 상품, 집행 프로세스, 집행가이드, 단가표등의 도움말 내용을 먼저 확인해 주시기 바랍니다.<br /><br />
+                                    이후 원하시는 광고 상품에 대해 도움말 창 아래 안내된 이메일주소(adcenter@golfzon.com)로 문의주시면 적합한 광고 상품을 제안해 드립니다. <br />
+                                    문의상담 신청 시에는 광고목적, 예산, 기간, 상품/지면 등 원하시는 내용을 가급적 구체적으로 기재해 주시는 것이 좋습니다. <br />
+                                    광고 집행이 확정되면 이후 프로세스는 담당자 안내에 따라 진행해 주시면 됩니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고노출</h3>
+                                    <p>타겟팅 광고가 가능한가요?</p>
+                                </dt>
+                                <dd>
+                                    골프존 모든 광고는 성별/연령/시간/지역을 구분하여 노출할 수 없습니다.<br />단, 대회 제외(대회의 경우 지역 설정이 가능합니다.)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고노출</h3>
+                                    <p>광고가 언제 노출되는지 알 수 있을까요?</p>
+                                </dt>
+                                <dd>
+                                    광고 집행 당일 00시부터 광고가 노출됩니다.</dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고노출</h3>
+                                    <p>상품의 예상 노출량은 어느 정도 되나요?</p>
+                                </dt>
+                                <dd>
+                                    광고 상품의 경우 노출량을 보장하는 상품입니다.<br />
+                                    지면 별 노출량이 다르니 해당 상품 안내페이지에서 노출량 확인 부탁드립니다.<br />
+                                    (단, 스폰서십의 경우 담당자를 통하여 구매 가능여부 및 노출량 별도 확인이 필요합니다.)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>소재 검수 시간은 얼마나 되나요?</p>
+                                </dt>
+                                <dd>
+                                    소재에 대한 검수는 플랫폼에 등록되는 순서에 따라서 진행되며 보통 만 하루를 넘지 않습니다.<br />
+                                    예상치 못한 수정이 발생하는 것을 감안하여 광고 집행일 기준으로 늦어도 4~5일 전에는 1차 검수를 진행하는 것을 추천드립니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>광고 소재 검수는 어떻게 진행되나요?</p>
+                                </dt>
+                                <dd>
+                                    광고 소재 검수는 광고주께서 전달해 주신 소재가 가이드에 맞게 제작되었는지를 검수자가 확인하며,<br />
+                                    제작가이드에 위배되는 부분이 발견되는 경우 수정 요청을 드리게 됩니다.<br />상품 별 제작가이드는 담당자를 통해 확인 부탁드립니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고소재</h3>
+                                    <p>광고 소재 제작은 누가 하나요?</p>
+                                </dt>
+                                <dd>
+                                    골프존은 광고를 게재하는 매체이며, 광고 집행을 위한 소재를 제작해 드리지 않습니다.<br />
+                                    광고 소재는 직접 제작하시거나, 전문업체(대행사)에 위탁하셔야합니다.<br />
+                                    또한 소재 제작은 제작가이드에 따라 제작해 주셔야 하며,<br />제작가이드에 위배되는 경우 소재를 수정해 주셔야 광고 게재가 가능합니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고비/기간</h3>
+                                    <p>광고비 결제는 어떻게 하나요?</p>
+                                </dt>
+                                <dd>
+                                    첫 거래 시 광고 시작 10일전까지 선입금 or 보증보험이 집행 되어야합니다.<br /><br />
+                                    *입금계좌: 하나은행 102-910026-59104 ㈜ 골프존<br />
+                                    *광고비 후입금의 경우 당사 기준에 따라 일정 조건 충족시에만 가능합니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고비/기간</h3>
+                                    <p>광고비 외에 추가 서비스 금액을 받을 수 있나요?</p>
+                                </dt>
+                                <dd>
+                                    별도로 서비스 금액을 제공하고 있지 않지만 상품에 따라 적용될 수 있으니 문의 부탁드립니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고비/기간</h3>
+                                    <p>광고 집행 기간은 어떻게 되나요?</p>
+                                </dt>
+                                <dd>
+                                    대부분의 상품의 기간은 한달을 기준으로 하며, 인벤토리가 남아 있을 경우 원하는 기간만큼 집행 가능합니다.<br />
+                                    <span style="color:red">(해당 월 잔여 인벤토리에 한하여 일할 구매가 가능합니다.)/(집행하기 15일전에 한하여 일할 구매가 가능합니다.)</span>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고비/기간</h3>
+                                    <p>최소 집행금액 기준이 있나요?</p>
+                                </dt>
+                                <dd>
+                                    최소 집행금액 기준은 상품별로 차이가 있습니다.<br />
+                                    스크린 광고의 경우 최소 집행 금액은 1500만원 이상<br />
+                                    골프존닷컴 광고의 경우 최소 집행 금액은 300만원 이상입니다.<br />
+                                    (단, 스폰서십은 별도 문의 부탁드립니다.)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고비/기간</h3>
+                                    <p>광고 단가를 알고 싶습니다.</p>
+                                </dt>
+                                <dd>
+                                    스크란광고의 경우제공되는 단가표를 통해 집행을 원하시는 상품의 단가를 확인하시고 광고 예산을 책정해 주시면 됩니다.<br /><br />
+                                    골프존닷컴 광고에서는 정기적으로 내/외부 요인을 반영하여 광고 단가를 고지하고 있습니다.<br />
+                                    각 상품/지면별 단가는 공시단가표를 참고하여 주시길 바랍니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고정책</h3>
+                                    <p>주류/담배 광고도 집행이 가능한가요?</p>
+                                </dt>
+                                <dd>
+                                    주류/담배 광고의경우 상품별로 제한하고 있습니다.<br /><br />
+                                    스크린골프의 경우 옥외광고로 주류는 제한이 없습니다.<br />
+                                    골프존닷컴 광고의 경우 온라인광고로 제한되는 시간이 있으나,<br />
+                                    골프존은 시간대 별로 판매하고 있지 않기때문에 노출이 불가합니다.<br /><br />
+                                    담배는 아래와 같이 동일하게 제한하고 있으니 참고 부탁드립니다.<br />
+                                    * 담배 광고는 현행법상 가격 공고 형태의 광고만 가능하며,  전자 담배 기기 및 브랜드는 홍보만 가능합니다<br />
+                                    단, 판매업 등록, 판매가격 신고·공고, 경고 문구의 표시 등으로 광고의 제한을 가하고 있습니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>광고정책</h3>
+                                    <p>집행에 제한사항이 있나요?</p>
+                                </dt>
+                                <dd>
+                                    일부 업종은 사전심의가 필요하거나, 광고 제한 될 수 있습니다.<br />
+                                    (ex. 현행법에 위배되는 내용의 광고, 선정/음란, 폭력/혐오/공포/비속, 타인권리 침해, 허위/과장/기만/비교/비방, 사회 정서 침해, 청소년 보호, 
+                                    인터넷 이용자의 사용성 침해, 도박/카지노, 대출광고, 선거/정단 광고, 종교 광고 등)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>기타</h3>
+                                    <p>매장을 대상으로 프로모션이 가능한가요?</p>
+                                </dt>
+                                <dd>
+                                    상품 별 케이스가 다양하며 가능 여부는 상담을 통하여 확인 부탁드리겠습니다.
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <h3>기타</h3>
+                                    <p>연간 광고 집행 시 할인 가능한가요?</p>
+                                </dt>
+                                <dd>
+                                    패키지 구매 시 금액에 따라 할인이 적용될 수 있습니다.
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //content -->
+    </div>
+    <!-- //container -->
+    <!-- footer -->
+    <div id="footer">
+        <address>
+            사업자등록번호 : 122-87-00053<br />
+            통신판매업신고번호 : 제2019-서울강남-01705호 <br />
+            ㈜골프존  대표이사 : 박강수/ 최덕형<br />
+            서울본사 : 서울특별시 강남구 영동대로 735 골프존타워서울<br />
+            대표전화 : 1577-4333<br />
+            대전사무소 : 대전광역시 유성구 엑스포로 97번길 40<br />
+            대표전화 : 1577-4333 
+        </address>
+        <p><a href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2019322023630201705&pageUnit=10&searchCnd=wrkr_no&searchKrwd=1228700053&pageIndex=1" 
+            >사업자정보확인</a></p> 
+        <span>Copyright (c) GOLFZON ALL rights reserved.</span>
+    </div>
+    <div class="scrollmenu_wrap" id="floatMenu">
+        <ul>
+            <li class="scr1"><a href="https://www.golfzon.com/customer/inquiry/advertisement" ><img src="../../images/main/img_scrollmenu1_1.png" alt="문의하기" /></a></li>
+            <!--<li class="scr2"><a href="sub/partnership/partnership.html"><img src="../../images/main/img_scrollmenu1_2.png" /></a></span>
+            </li>-->
+        </ul>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

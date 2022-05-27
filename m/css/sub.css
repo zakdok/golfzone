@@ -1,0 +1,157 @@
+html,body{height:100%;}
+#footer{margin-top:10rem;}
+.sub_top_visual{background-image:url('../images/sub/img_top_visual1.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_event_top_visual{background-image:url('../images/sub/img_top_visual2.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_golfzon_top_visual{background-image:url('../images/sub/img_top_visual3.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_marketing_top_visual{background-image:url('../images/sub/img_top_visual4.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_addzone_top_visual{background-image:url('../images/sub/img_top_visual5.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_faq_top_visual{background-image:url('../images/sub/img_top_visual6.png');width:100%;background-repeat:no-repeat;height:370px;background-size:cover;}
+.sub_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_event_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_golfzon_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_marketing_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_addzone_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_faq_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:150px;}
+.sub_path{border-bottom:1px solid #e5e5e5;padding:1.5rem;font-size:12px;color:#999}
+.sub_path p img{width:5px;vertical-align:middle;margin:0 1rem}
+.sub_path p b{color:#000;}
+.sub_title{text-align:center;padding:5rem 0}
+.sub_title h2{font-weight:bold;font-size:25px;margin-bottom:25px}
+.sub_title p{font-weight:bold;font-size:17px;}
+.sub_title span{margin-top:1.5rem;font-size:14px;color:#535353;display:block;line-height:1.4rem;}
+.sub_tab_wrap{position: absolute;text-align:center;width:90%;margin:0 auto;z-index:2;left:5%}
+.sub_tab_wrap ul{padding:0 1.5rem;background:#006eb7;border-bottom-right-radius:20px;border-bottom-left-radius:20px;-webkit-box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.35);
+    box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.35);}
+.sub_tab_wrap ul li{padding:1.5rem;color:white;font-size:15px;border-bottom:2px solid #0084dc;}
+.sub_tab_wrap ul li.on{font-weight:bold;background-image:url('../images/sub/img_sub_nav_arrow.png');background-size:15px;background-repeat:no-repeat;
+    background-position:right 0 top 1.6rem;border-bottom:none}
+.sub_tab_wrap ul div{display:none;}
+.sub_tab_wrap ul li a{color:white}
+.sub_tab_wrap ul li:last-child{border-bottom:none}
+.sub_user_flow{padding-top:1.5rem}
+.sub_cont{margin-top:5rem}
+.sub_cont h3{text-align: center;font-weight:bold;font-size:21px;margin-bottom:2rem}
+.sub_cont .movie_wrap{width:90%;margin:0 auto;height:19.5rem;}
+.sub_cont .practice_info_wrap{margin-top:4rem;padding:0 1.5rem;overflow:hidden}
+.sub_cont .practice_info_wrap dl{overflow: hidden;margin-bottom:1.5rem}
+.sub_cont .practice_info_wrap dl:last-child{margin-bottom:0}
+.sub_cont .practice_info_wrap dt{clear:both;float:left;font-family:'Montserrat' !important;font-size:15px;color:#006eb7;margin-right:2rem}
+.sub_cont .practice_info_wrap dd{float:left;font-size:14px;font-weight:bold;}
+.sub_cont .practice_info_wrap dd span{font-weight:normal;margin-top:10px;display:block;}
+.game_info_wrap{width:calc(100% - 3rem);background:#f3f5f7;margin-top:5rem;padding:5rem 1.5rem;margin-bottom:5rem}
+.game_info_wrap li{font-size:16px;color:#222;line-height:35px;margin-bottom:2rem}
+.game_info_wrap li span{font-weight:bold;}
+.game_info_wrap p{margin-top:20px;font-size:12px;color:#666}
+.event_title{text-align:center;margin-bottom:3rem}
+.event_title p{font-size:15px;color:#252525;margin-bottom:1rem}
+.event_title h2{font-weight:bold;font-size:25px;}
+.sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:336px;background-size:cover;background-position:center;}
+.sub_slide_wrap{width:91px;padding-top:133px;margin:0 auto;padding-left:45px}
+.sub_slide_champ{background-image:url('../images/sub/bg_sub_championship_info1.png');width:100%;background-repeat:no-repeat;height:336px;background-size:cover;background-position:center;}
+.sub_slide_wrap_champ{width:91px;padding-top:133px;margin:0 auto;padding-left:45px}
+.event_list_table_wrap{margin-top:6rem;background:#f3f7fa;padding:3rem 1.5rem 0 1.5rem}
+.event_list_table_wrap div{padding:3rem 0;border-bottom:1px solid #e3e8eb;overflow: hidden;}
+.event_list_table_wrap div:last-child{border-bottom:none}
+.event_list_table_wrap li{float:left;display:inline-block;width:33%;font-size:14px;color:#adadad;margin-bottom:1rem}
+.event_list_table_wrap li:last-child{margin-bottom:0}
+.event_list_table_wrap h4{font-size:18px;color:#006eb7;font-weight:bold;margin-bottom:2rem}
+.event_list_table_wrap li b{font-weight:bold;color:#000}
+.cont_length{font-size:1.2rem;font-weight:bold;text-align:center;}
+.cont_length span{border-bottom:2px solid #000;padding-bottom:10px;overflow: hidden;}
+.marketing_wrap{width:calc(100% - 3rem);clear:both;overflow: hidden;padding:0 1.5rem;margin-bottom:1.5rem;}
+.marketing{float:left;width:47%;border:1px solid #dcdcdc;background:white;overflow: hidden;cursor:pointer;}
+.marketing a{color:#000}
+.marketing:last-child{float:right}
+.marketing_info_text{padding:1rem}
+.marketing_info_text h2{font-size:18px;font-weight:bold;margin-bottom:10px;line-height:24px;height:50px}
+.marketing_info_text p{font-size:13px;height:100px;line-height:18px;}
+.marketing_info_text span{font-family:'Montserrat' !important;font-size:12px}
+#popup{width:100%;background:white;border-radius:50px 50px 0 0;position:fixed;-webkit-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
+	box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);z-index:99;}
+.pop_close{float:right;margin:40px 40px 40px 0;cursor: pointer;}
+.pop_content{height:100%;}
+.pop_cont{clear:both;height:100%;overflow-y:scroll;-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */}
+.pop_cont::-webkit-scrollbar {display: none; /* Chrome, Safari, Opera*/}
+.pop_cont_scroll{overflow-y:scroll;height:100%}
+.pop_cont h1{text-align:center;font-size:27px;font-weight:bold;color:#006eb7}
+.pop_cont h2{text-align:center;font-size:17px;font-weight:bold;margin-top:25px;line-height:25px;}
+.pop_cont .pop_text{text-align:center;font-size:12px;margin-top:35px;}
+.pop_info_img{text-align:center;margin:25px 0}
+.pop_info_img img{-webkit-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);width:70%;border:10px solid white;
+	-moz-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
+	box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);}
+.pop_text_list{margin-top:50px;}
+.pop_text_list dl{width:100%;margin-top:50px;overflow: hidden;}
+.pop_text_list dt{float:left;font-size:17px;clear:both;font-weight:bold;margin-bottom:15px}
+.pop_text_list dd{float:left;font-size:14px;line-height:25px;clear:both;width:100%}
+.pop_text_list .pop_circle{width:30%;text-align:center;float:left;margin-right:5%}
+.pop_text_list .pop_circle:last-child{margin-right:0}
+.pop_text_list .pop_circle div{background:#006eb7;text-align:center;border-radius:100%;padding:40% 0;color:white;font-weight:bold;font-size:17px}
+.pop_text_list .pop_circle p{margin-top:30px;font-weight:bold;letter-spacing:-1px;font-size:14px}
+.pop_text_list .pop_circle p span{font-size:12px;font-weight:normal;}
+.pop_campain_wrap{width:100%;background:#006eb7;}
+.pop_campain h2{padding-top:50px;color:white;margin-top:0;font-size:17px;margin-bottom:20px}
+.pop_text_list2{margin-top:210px;text-align:center;margin-bottom:200px}
+.pop_text_list2 h3{font-size:27px;font-weight:bold;margin-bottom:50px;}
+.pop_cs{padding:4rem 1.5rem;width:calc(100% - 3rem);color:white;text-align:left;}
+.pop_cs h3{clear:both;font-size:15px;}
+.pop_cs p{font-size:15px;font-weight:bold;line-height:24px;}
+.pop_cs p a{color:white;}
+.pop_cs p span{font-weight:100;}
+.slide_4st_wrap{position: relative;}
+.slide_4st_wrap .ad_slide .ad_info_text{font-size:18px;margin-bottom:10px;letter-spacing:-1px;font-weight:bold;}
+.slide_4st_wrap .ad_slide .ad_info_text p:last-child{color:#000d1d;font-weight:normal;margin-top:10px}
+.slide_4st_wrap .ad_slide .ad_info_text{margin:2rem 0;text-align:center;}
+.slide_4st_wrap .ad_slide{overflow: hidden;width:17.5rem;margin:0 auto}
+.slide_4st_wrap .ad_slide img{border:3px solid #1099f3;width:17rem}
+.slide_4st_wrap .swiper-button-next,.slide_4st_wrap .swiper-button-prev{top:45%;color:#c2c6c8 !important;}
+.swiper-pagination{bottom:-30px !important}
+.swiper-pagination-bullet{background:white !important;opacity:1 !important;}
+.swiper-pagination-bullet-active{background:#f7941c !important;opacity:1 !important;}
+.pop_bottom_img{margin-top:5rem;text-align:center;}
+.pop_bottom_img img{width:80%}
+.partnership_info_wrap{text-align:center;width:calc(100% - 3rem);padding:0 1.5rem}
+.partnership_info_wrap span{font-size:14px;color:#535353;}
+.partnership_info_wrap h3{font-size:17px;line-height:24px;}
+.partnership_info_wrap h3 span{padding:10px;background:#006eb7;color:white;margin-right:15px;display:inline-block;
+    font-size:14px;font-family:'Montserrat' !important;vertical-align:middle;}
+.partnership_info_wrap img{margin-bottom:3rem}
+.sub_text_p{font-size:15px;margin:20px 0 40px 0;color:#535353;line-height:24px;}
+@media all and (min-width:425px){
+    .sub_top_visual{background-image:url('../images/sub/img_top_visual1.png');width:100%;background-repeat:no-repeat;
+        height:420px;background-size:cover;}
+    .sub_top_visual h1{color:white;text-align:center;font-size:2.75rem;padding-top:180px;}
+    .sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:390px;background-size:cover;background-position:center;}
+    .sub_slide_wrap{width:100px;padding-top:156px;margin:0 auto;padding-left:55px;}
+    .sub_slide_wrap img{height:205px}
+    .sub_slide_champ{background-image:url('../images/sub/bg_sub_championship_info1.png');width:100%;background-repeat:no-repeat;height:390px;background-size:cover;background-position:center;}
+    .sub_slide_wrap_champ{width:100px;padding-top:156px;margin:0 auto;padding-left:55px;}
+    .sub_slide_wrap_champ img{height:205px}
+}
+@media all and (min-width:414px){
+    .sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:390px;background-size:cover;background-position:center;}
+    .sub_slide_wrap{width:100px;padding-top:153px;margin:0 auto;padding-left:55px;}
+    .sub_slide_wrap img{height:205px}
+    .sub_slide_champ{background-image:url('../images/sub/bg_sub_championship_info1.png');width:100%;background-repeat:no-repeat;height:390px;background-size:cover;background-position:center;}
+    .sub_slide_wrap_champ{width:100px;padding-top:153px;margin:0 auto;padding-left:55px;}
+    .sub_slide_wrap_champ img{height:205px}
+}
+@media all and (min-width:768px){
+    .sub_top_visual{background-image:url('../images/sub/img_top_visual1.png');width:100%;background-repeat:no-repeat;
+        height:740px;background-size:cover;}
+    .sub_top_visual h1{color:white;text-align:center;font-size:5rem;padding-top:350px;}
+    .sub_title h2{font-weight:bold;font-size:50px;margin-bottom:25px}
+    .sub_title p{font-weight:bold;font-size:35px;} 
+    .sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:690px;background-size:cover;background-position:center;}   
+    .sub_slide_wrap{width:183px;padding-top:273px;margin:0 auto;padding-left:97px;}
+    .sub_slide_wrap img{height:365px}
+    .sub_slide_champ{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:690px;background-size:cover;background-position:center;}   
+    .sub_slide_wrap_champ{width:183px;padding-top:273px;margin:0 auto;padding-left:97px;}
+    .sub_slide_wrap_champ img{height:365px}
+    .marketing{float:left;width:48%;border:1px solid #dcdcdc;background:white;overflow: hidden;cursor:pointer;}    
+    .marketing_info_text h2{font-size:18px;font-weight:bold;margin-bottom:20px;line-height:24px;height:25px}
+    .marketing_info_text p{font-size:13px;height:70px;line-height:18px;}
+}
