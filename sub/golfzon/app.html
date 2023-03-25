@@ -92,8 +92,18 @@
                     .tab1_content{margin-top:85px}
                     .practice_info_wrap{width:935px;margin:90px auto 0 auto}
                     .practice_info_wrap dl{width:33%;text-align:center;padding:0;border-right:1px solid #d7dde9;height:50px;padding:20px 0}
-                    .practice_info_wrap.w50{display: flex;align-items: center;}
-                    .practice_info_wrap.w50 dl{width: 50%;}
+                    .practice_info_wrap.w50{display: flex;align-items: center;justify-content: center;}
+                    .practice_info_wrap.w50 dl{width: 50%;padding: 0;height: 90px;display: flex;align-items: center;justify-content: center;}
+                    .practice_info_wrap.w50 .rr{
+                        position: relative;
+                        padding-left: 29px;
+                        display: inline-block;text-align: left;
+                    }
+                    .practice_info_wrap.w50 .rr img{
+                        position: absolute;
+                        left: 0;
+                        top: 6px;
+                    }
                     .practice_info_wrap dt{width:100%;color:#000;text-decoration:none;line-height:28px;}
                     .practice_info_wrap dt img{margin-right:10px;}
                     .practice_info_wrap dd{margin-top:10px;margin-left:20px}
@@ -184,15 +194,19 @@
                         <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
                             <img src="../../images/sub/img_app6.jpg" alt="모바일 푸시 + 이벤트 페이지" />
                         </div>
-                        <div class="practice_info_wrap">
+                        <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />푸시 알림 월 1회 발송</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 1,500만원 / 2주 800만원</dt>
                             </dl>
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />이벤트 하단 광고</dt>
-                            </dl>
-                            <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />페이지 1개월 노출</dt>
+                                <dt>
+                                    <div class="rr">
+                                        <img src="../../images/sub/ico_golfzon_dt.png" alt="" />
+                                        푸시알람 월1회 발송<br>
+                                        이벤트 하단 광고<br>
+                                        페이지 1개월 노출
+                                    </div>
+                                </dt>
                             </dl>
                         </div>
                     </div>
