@@ -197,16 +197,21 @@ body,#wrap{width:100%;height:100%}
 	text-align: center;
 	margin: 50px 0 30px;
 }
+.round-title .title-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 10px;
+}
 .round-title .num{
 	display: block;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	margin: 0 auto 10px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 10px;
 	background-color: #f7941c;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 16px;
-	border-radius: 50%;
 	color: #fff;
 }
 .round-title.blue .num{
@@ -220,8 +225,11 @@ body,#wrap{width:100%;height:100%}
 .round-title.blue .title{
 	color: #006eb7;
 }
-.round-title .text{
+.round-title .text-wrap{
 	margin: 10px 0 0;
+}
+.round-title .text{
+	line-height: 1.6;
 	font-size: 18px;
 	font-weight: 400;
 }
