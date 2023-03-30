@@ -1,9 +1,11 @@
 #wrap{width:100%}
 img {
-    width: 100%; /* 이미지의 최대사이즈 */
-    height: 100%;
+    max-width: 100%;
+    /* width: 100%; 이미지의 최대사이즈 */
+    /* height: 100%; */
     vertical-align: bottom;
 }
+.pop_campain .swiper-slide{text-align: center;}
 #header{position:fixed;width:100%;z-index:999}
 #header .top_menu_defult{overflow: hidden;padding:1.5rem;width:calc(100% - 3rem)}
 #header .top_menu_defult div:first-child{float:left;}
@@ -26,11 +28,14 @@ img {
 #header .top_menu_on_wrap .top_menu_on_head .top_menu_on_head_menu li a{color:white;}
 #header .top_menu_on_wrap .top_menu_on_head .top_menu_on_head_menu li:first-child{font-family:'Montserrat' !important;font-size:1.2rem !important;
     background:url('../images/main/bg_top_menu_line.png') right 3px no-repeat;padding-right:1.5rem}
+#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_head_menu li:nth-child(2),
 #header .top_menu_on_wrap .top_menu_on_head .top_menu_on_head_menu li:last-child{padding-left:1.5rem;margin-top:2px}
 #header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc{padding:1.5rem 1.5rem;width:calc(100% - 3rem);clear:both;overflow: hidden;}
-#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc p:first-child{float:left;color:white;font-size:1.2rem;margin-top:0.7rem}
+#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc p:first-child{float:left;color:white;font-size:1rem;margin-top: 0.4rem;}
+#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc p:nth-child(2),
 #header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc p:last-child{float:right;color:white;}
-#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc img{width:7rem;}
+#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc p:nth-child(2){margin-left: 10px;}
+#header .top_menu_on_wrap .top_menu_on_head .top_menu_on_etc img{width:5rem;}
 #header .top_menu_on_wrap .top_menu_on_nav{background:white;padding:1.5rem 1.5rem 4rem 1.5rem;width:calc(100% - 3rem);overflow: hidden;}
 #header .top_menu_on_wrap .top_menu_on_nav ul{float:left;}
 #header .top_menu_on_wrap .top_menu_on_nav ul li{font-size:1.6rem;line-height:50px;}
