@@ -1,3 +1,6 @@
+.font-exception{
+    font-family: dotum;
+}
 html,body{height:100%;}
 #footer{margin-top:10rem;}
 .partnership_info_wrap > h2{
@@ -51,7 +54,7 @@ html,body{height:100%;}
 .event_title{text-align:center;margin-bottom:3rem}
 .event_title p{font-size:15px;color:#252525;margin-bottom:1rem}
 .event_title h2{font-weight:bold;font-size:25px;}
-.sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:336px;background-size:cover;background-position:center;}
+.sub_slide{background-image:url('../images/sub/bg_sub_championship_info.png');width:100%;background-repeat:no-repeat;height:336px;background-size:cover;background-position:center 0;}
 .sub_slide_wrap{width:91px;padding-top:133px;margin:0 auto;padding-left:45px}
 .sub_slide_champ{background-image:url('../images/sub/bg_sub_championship_info1.png');width:100%;background-repeat:no-repeat;height:336px;background-size:cover;background-position:center;}
 .sub_slide_wrap_champ{width:91px;padding-top:133px;margin:0 auto;padding-left:45px}
@@ -67,9 +70,9 @@ html,body{height:100%;}
 .marketing_wrap{width:calc(100% - 3rem);clear:both;overflow: hidden;padding:0 1.5rem;margin-bottom:1.5rem;}
 .marketing{border:1px solid #dcdcdc;background:white;overflow: hidden;cursor:pointer;}
 .marketing a{color:#000}
-.marketing_info_text{padding:1rem}
+.marketing_info_text{padding:1rem 0.5rem}
 .marketing_info_text h2{font-size:18px;font-weight:bold;margin-bottom:10px;line-height:24px;height:50px}
-.marketing_info_text p{font-size:13px;height:100px;line-height:18px;}
+.marketing_info_text p{font-size:12px;height:112px;line-height:16px;}
 .marketing_info_text span{font-family:'Montserrat' !important;font-size:12px}
 #popup{width:100%;background:white;border-radius:50px 50px 0 0;position:fixed;-webkit-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
 	-moz-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
@@ -81,7 +84,7 @@ html,body{height:100%;}
 .pop_cont::-webkit-scrollbar {display: none; /* Chrome, Safari, Opera*/}
 .pop_cont_scroll{overflow-y:scroll;height:100%}
 .pop_cont h1{text-align:center;font-size:27px;font-weight:bold;color:#006eb7}
-.pop_cont h2{text-align:center;font-size:17px;font-weight:bold;margin-top:25px;line-height:25px;}
+.pop_cont h2{text-align:center;font-size:17px;font-weight:bold;margin-top:25px;line-height:25px;word-break: keep-all;}
 .pop_cont .pop_text{text-align:center;font-size:12px;margin-top:35px;}
 .pop_info_img{text-align:center;margin:25px 0}
 .pop_info_img img{-webkit-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);width:70%;border:10px solid white;
