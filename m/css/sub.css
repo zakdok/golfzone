@@ -170,7 +170,6 @@ html,body{height:100%;}
 }
 .round-title .title-wrap{
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	margin: 0 0 8px;
 }
