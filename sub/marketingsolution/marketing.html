@@ -214,7 +214,7 @@
                         <div class="sub_title tab1" style="margin: 100px 0 30px;">
                             <h2 style="text-align: left;">GS 광고</h2>
                         </div>
-                        <div class="marketing_wrap">
+                        <div class="marketing_wrap marketing_wrap1">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -260,14 +260,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="sub_title tab2" style="margin: 100px 0 30px;">
                             <h2 style="text-align: left;">대회/이벤트 광고</h2>
                         </div>
-                        <div class="marketing_wrap">
+                        <div class="marketing_wrap marketing_wrap2">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -318,14 +318,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="sub_title tab3" style="margin: 100px 0 30px;">
                             <h2 style="text-align: left;">APP 광고</h2>
                         </div>
-                        <div class="marketing_wrap">
+                        <div class="marketing_wrap marketing_wrap3">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -375,9 +375,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
                 </div>
@@ -1360,15 +1360,31 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" integrity="sha512-Ze01E5cRDy3ZSlrfq1xOjnVVuKh8GOC0AUCdBU6bgPQY5qoWzTKqijsLRm1ZONCH7ydBsOz+Z+9jLwz+97MGaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script>
 jQuery(function($){
-    var swiper = new Swiper(".mySwiper", {
+    var swiper1 = new Swiper(".marketing_wrap1 .mySwiper", {
         slidesPerView: 3,
         spaceBetween: 50,
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".marketing_wrap1 .swiper-button-next",
+            prevEl: ".marketing_wrap1 .swiper-button-prev",
         },
     });
-    var swiper = new Swiper(".mySwiper2", {
+    var swiper1 = new Swiper(".marketing_wrap2 .mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 50,
+        navigation: {
+            nextEl: ".marketing_wrap2 .swiper-button-next",
+            prevEl: ".marketing_wrap2 .swiper-button-prev",
+        },
+    });
+    var swiper3 = new Swiper(".marketing_wrap3 .mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 50,
+        navigation: {
+            nextEl: ".marketing_wrap3 .swiper-button-next",
+            prevEl: ".marketing_wrap3 .swiper-button-prev",
+        },
+    });
+    var swiperPop = new Swiper(".mySwiper2", {
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

@@ -234,7 +234,7 @@
                 <p>GS 광고</p>
             </div>
             <div class="sub_cont" style="margin-top:2rem">
-                <div class="marketing_wrap">
+                <div class="marketing_wrap marketing_wrap1">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -288,16 +288,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
-            <div class="cont_length" style="margin-top: 2.5rem">
+            <div class="cont_length" style="margin-top: 3.5rem">
                 <p>대회/이벤트 광고</p>
             </div>
             <div class="sub_cont" style="margin-top:2rem">
-                <div class="marketing_wrap">
+                <div class="marketing_wrap marketing_wrap2">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -356,16 +356,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
-            <div class="cont_length" style="margin-top: 2.5rem">
+            <div class="cont_length" style="margin-top: 3.5rem">
                 <p>APP 광고</p>
             </div>
             <div class="sub_cont" style="margin-top:2rem">
-                <div class="marketing_wrap">
+                <div class="marketing_wrap marketing_wrap3">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -423,9 +423,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </div>
@@ -457,12 +457,28 @@
     <!-- //footer -->
 </div>
 <script>
-var swiper = new Swiper(".mySwiper", {
+var swiper1 = new Swiper(".marketing_wrap1 .mySwiper", {
     slidesPerView: 2,
-    spaceBetween: 20,
+    spaceBetween: 10,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".marketing_wrap1 .swiper-button-next",
+        prevEl: ".marketing_wrap1 .swiper-button-prev",
+    },
+});
+var swiper1 = new Swiper(".marketing_wrap2 .mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".marketing_wrap2 .swiper-button-next",
+        prevEl: ".marketing_wrap2 .swiper-button-prev",
+    },
+});
+var swiper3 = new Swiper(".marketing_wrap3 .mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".marketing_wrap3 .swiper-button-next",
+        prevEl: ".marketing_wrap3 .swiper-button-prev",
     },
 });
 </script>

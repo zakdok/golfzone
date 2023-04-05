@@ -71,7 +71,7 @@ html,body{height:100%;}
 .marketing{border:1px solid #dcdcdc;background:white;overflow: hidden;cursor:pointer;}
 .marketing a{color:#000}
 .marketing_info_text{padding:1rem 0.5rem}
-.marketing_info_text h2{font-size:18px;font-weight:bold;margin-bottom:10px;line-height:24px;height:50px}
+.marketing_info_text h2{font-size:18px;font-weight:bold;margin-bottom:10px;line-height:24px;}
 .marketing_info_text p{font-size:12px;height:112px;line-height:16px;}
 .marketing_info_text span{font-family:'Montserrat' !important;font-size:12px}
 #popup{width:100%;background:white;border-radius:50px 50px 0 0;position:fixed;-webkit-box-shadow: 0px 6px 43px -1px rgba(0,0,0,0.15);
@@ -262,4 +262,30 @@ html,body{height:100%;}
 .phone-bg-slide .swiper-button-next,
 .phone-bg-slide .swiper-button-prev{
 	z-index: 999;
+}
+.marketing_wrap{
+	position: relative;
+    width: calc(100% - 80px);
+    padding: 0 40px;
+}
+.marketing_wrap .swiper-button-next,
+.marketing_wrap .swiper-button-prev{
+	width: 22px;
+	height: 22px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -22px;
+}
+.marketing_wrap .swiper-button-next{
+	right: 10px;
+	background-image: url('../images/sub/slide-next.png');
+}
+.marketing_wrap .swiper-button-prev{
+	left: 10px;
+	background-image: url('../images/sub/slide-prev.png');
+}
+.marketing_wrap .swiper-button-next:after,
+.marketing_wrap .swiper-button-prev:after{
+	display: none;
 }

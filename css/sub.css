@@ -273,3 +273,28 @@ body,#wrap{width:100%;height:100%}
 .phone-bg-slide .swiper-button-prev{
 	z-index: 999;
 }
+
+.marketing_wrap{
+	position: relative;
+}
+.marketing_wrap .swiper-button-next,
+.marketing_wrap .swiper-button-prev{
+	width: 44px;
+	height: 44px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -22px;
+}
+.marketing_wrap .swiper-button-next{
+	right: -54px;
+	background-image: url('../images/sub/slide-next.png');
+}
+.marketing_wrap .swiper-button-prev{
+	left: -54px;
+	background-image: url('../images/sub/slide-prev.png');
+}
+.marketing_wrap .swiper-button-next:after,
+.marketing_wrap .swiper-button-prev:after{
+	display: none;
+}
