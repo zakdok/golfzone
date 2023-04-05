@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /*영문웹폰트 montserrat // font-family: 'Montserrat', sans-serif;*/
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css'); /*한글웹폰트 NanumSquare // font-family: 'NanumSquare', sans-serif; // .normal{ font-weight: 400 }*/
 
-body, input, select, textarea, button {font-family: 'NanumSquare', sans-serif;font-size:12px;letter-spacing:-1px;}
+html body, 
+html input, 
+html select, 
+html textarea, 
+html button {font-family: 'NanumSquare', sans-serif;font-size:12px;letter-spacing:-1px;}
 body {line-height:1;}
 /* 여백 초기화*/
 html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, b, address, pre, cite, form, fieldset, input, textarea, select, table, th, td, iframe, object, 

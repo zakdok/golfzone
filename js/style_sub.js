@@ -352,6 +352,14 @@ $(document).ready(function(){
             },500)
         });
     })
+    $(document).keyup(function(e) {
+        if (e.key === "Escape") {
+            $('body').css('overflow','')
+            $('#popup').stop().animate({
+                'top':'100%'
+            },500)
+        }
+    });
 })
 
 
