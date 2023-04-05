@@ -129,13 +129,42 @@
             </div>
             <div class="sub_cont" style="margin-top:7rem">
                 <h3>홈 메인 중앙</h3>
-                <div class="movie_wrap">
-                    <img src="../../images/sub/img_app2.jpg" alt="" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" integrity="sha512-Ze01E5cRDy3ZSlrfq1xOjnVVuKh8GOC0AUCdBU6bgPQY5qoWzTKqijsLRm1ZONCH7ydBsOz+Z+9jLwz+97MGaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js" integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <div class="phone-bg-slide">
+                    <div class="bg">background image</div>
+                    <div class="swiper mySwiper slide-area">
+                        <div class="swiper-wrapper slide-wrap">
+                            <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_21.jpg" alt="image"></p></div>
+                            <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_22.jpg" alt="image"></p></div>
+                            <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_23.jpg" alt="image"></p></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
+                <script>
+                jQuery(function ($) {
+                    var swiper = new Swiper(".mySwiper", {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                        loop: true,
+                        loopAdditionalSlides: 1,
+                        autoplay: {
+                            delay: 3000, //넘어가는 시간 (1000=1초)
+                            disableOnInteraction: false,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                })
+                </script>
                 <div class="practice_info_wrap">
                     <dl>
                         <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" /></dt>
-                        <dd>4주 1,500만원 / 2주 800만원</dd>
+                        <dd>4주 - 1,500만원<br>2주 800만원</dd>
                     </dl>
                     <dl>
                         <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" /></dt>

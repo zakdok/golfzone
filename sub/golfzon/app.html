@@ -7,6 +7,8 @@
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
     <script src="../../js/jquery-3.2.1.min.js"></script>
     <script src="../../js/style_sub.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js" integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" integrity="sha512-Ze01E5cRDy3ZSlrfq1xOjnVVuKh8GOC0AUCdBU6bgPQY5qoWzTKqijsLRm1ZONCH7ydBsOz+Z+9jLwz+97MGaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/sub.css?v=1.0">
 </head>
@@ -95,17 +97,7 @@
                     .practice_info_wrap{width:935px;margin:90px auto 0 auto}
                     .practice_info_wrap dl{width:33%;text-align:center;padding:0;border-right:1px solid #d7dde9;height:50px;padding:20px 0}
                     .practice_info_wrap.w50{display: flex;align-items: center;justify-content: center;}
-                    .practice_info_wrap.w50 dl{width: 50%;padding: 0;height: 90px;display: flex;align-items: center;justify-content: center;}
-                    .practice_info_wrap.w50 .rr{
-                        position: relative;
-                        padding-left: 29px;
-                        display: inline-block;text-align: left;
-                    }
-                    .practice_info_wrap.w50 .rr img{
-                        position: absolute;
-                        left: 0;
-                        top: 6px;
-                    }
+                    .practice_info_wrap.w50 dl{width: 50%;padding: 0;height: 120px;display: flex;align-items: center;justify-content: center;}
                     .practice_info_wrap dt{width:100%;color:#000;text-decoration:none;line-height:28px;}
                     .practice_info_wrap dt img{margin-right:10px;}
                     .practice_info_wrap dd{margin-top:10px;margin-left:20px}
@@ -115,12 +107,21 @@
                 <div id="tab1" class="tab_content current">
                     <div class="tab1_content">
                         <h3>전면팝업</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app1.jpg" alt="전면팝업" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_11.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_12.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_13.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 2,000만원 / 10일 1,000만원</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 - 2,000만원<br>10일 - 1,000만원</dt>
                             </dl>
                             <dl>
                                 <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />CTR 3.0% (23년 1-2월 기준)</dt>
@@ -132,12 +133,21 @@
                 <div id="tab2" class="tab_content">
                     <div class="tab1_content">
                         <h3>홈 메인 중앙</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app2.jpg" alt="메인 중앙" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_21.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_22.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_23.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 1,500만원 / 2주 800만원</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 - 1,500만원<br>2주 - 800만원</dt>
                             </dl>
                             <dl>
                                 <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />CTR 0.16% (23년 1-2월 기준)</dt>
@@ -148,12 +158,20 @@
                 <div id="tab3" class="tab_content">
                     <div class="tab1_content">
                         <h3>스크린 메인 중앙</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app3.jpg" alt="스크린 메인 중앙" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_31.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_32.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 1,300만원 / 2주 700만원</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 - 1,300만원<br>2주 - 700만원</dt>
                             </dl>
                             <dl>
                                 <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />CTR 0.1% (23년 1-2월 기준)</dt>
@@ -164,12 +182,19 @@
                 <div id="tab4" class="tab_content">
                     <div class="tab1_content">
                         <h3>필드 메인 중앙</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app4.jpg" alt="필드 메인 중앙" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_41.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 1,000만원 / 2주 600만원</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 - 1,000만원<br>2주 - 600만원</dt>
                             </dl>
                             <dl>
                                 <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />CTR 0.01% (23년 1-2월 기준)</dt>
@@ -180,8 +205,15 @@
                 <div id="tab5" class="tab_content">
                     <div class="tab1_content">
                         <h3>스크린 로그인 스킨</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app5.jpg?ver=5" alt="스크린 로그인 스킨" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_51.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
@@ -193,12 +225,20 @@
                 <div id="tab6" class="tab_content">
                     <div class="tab1_content">
                         <h3>모바일 푸시 + 이벤트 페이지</h3>
-                        <div class="movie_wrap" style="overflow:hidden;text-align:center;height:auto">
-                            <img src="../../images/sub/img_app6.jpg" alt="모바일 푸시 + 이벤트 페이지" />
+                        <div class="phone-bg-slide">
+                            <div class="bg">background image</div>
+                            <div class="swiper mySwiper slide-area">
+                                <div class="swiper-wrapper slide-wrap">
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_61.jpg" alt="image"></p></div>
+                                    <div class="swiper-slide slide-con"><p class="img"><img src="../../images/sub/app_62.jpg" alt="image"></p></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                         <div class="practice_info_wrap w50">
                             <dl>
-                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 1,500만원 / 2주 800만원</dt>
+                                <dt><img src="../../images/sub/ico_golfzon_dt.png" alt="" />4주 - 1,500만원<br>2주 - 800만원</dt>
                             </dl>
                             <dl>
                                 <dt>
@@ -243,5 +283,23 @@
         </div>
         <!-- scroll menu-->
     </div>
+<script>
+jQuery(function ($) {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        loopAdditionalSlides: 1,
+        autoplay: {
+            delay: 3000, //넘어가는 시간 (1000=1초)
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+})
+</script>
 </body>
 </html>
