@@ -309,3 +309,7 @@ html,body{height:100%;}
 .marketing_wrap .swiper-button-prev:after{
 	display: none;
 }
+.pop_campain .swiper .swiper-slide{
+    box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;
+	padding: 0 50px;
+}
