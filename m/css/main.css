@@ -6,7 +6,7 @@ img {
     vertical-align: bottom;
 }
 .pop_campain .swiper-slide{text-align: center;}
-#header{position:fixed;width:100%;z-index:999}
+#header{position:fixed;width:100%;z-index:99999}
 #header .top_menu_defult{overflow: hidden;padding:1.5rem;width:calc(100% - 3rem)}
 #header .top_menu_defult div:first-child{float:left;}
 #header .top_menu_defult div:first-child img{width:104px}

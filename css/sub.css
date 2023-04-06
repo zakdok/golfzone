@@ -277,6 +277,10 @@ body,#wrap{width:100%;height:100%}
 .marketing_wrap{
 	position: relative;
 }
+.pop_campain .swiper-button-next,
+.pop_campain .swiper-button-prev,
+.phone-bg-slide .swiper-button-next,
+.phone-bg-slide .swiper-button-prev,
 .marketing_wrap .swiper-button-next,
 .marketing_wrap .swiper-button-prev{
 	width: 44px;
@@ -286,15 +290,41 @@ body,#wrap{width:100%;height:100%}
 	background-size: cover;
 	margin-top: -22px;
 }
+.pop_campain .swiper-button-next,
+.phone-bg-slide .swiper-button-next,
 .marketing_wrap .swiper-button-next{
 	right: -54px;
 	background-image: url('../images/sub/slide-next.png');
 }
+.pop_campain .swiper-button-prev,
+.phone-bg-slide .swiper-button-prev,
 .marketing_wrap .swiper-button-prev{
 	left: -54px;
 	background-image: url('../images/sub/slide-prev.png');
 }
+.pop_campain .swiper-button-next,
+.phone-bg-slide .swiper-button-next{
+	right: 10px;
+}
+.pop_campain .swiper-button-prev,
+.phone-bg-slide .swiper-button-prev{
+	left: 10px;
+}
+.pop_campain .swiper-button-next:after,
+.pop_campain .swiper-button-prev:after,
+.phone-bg-slide .swiper-button-next:after,
+.phone-bg-slide .swiper-button-prev:after,
 .marketing_wrap .swiper-button-next:after,
 .marketing_wrap .swiper-button-prev:after{
 	display: none;
+}
+.menu-list a{
+	font-size: 22px;
+	padding: 12px 10px;
+}
+.content ul.menu-list{
+	margin: 0;
+}
+.menu-list ul a{
+	font-size: 18px;
 }
