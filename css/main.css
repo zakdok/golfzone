@@ -56,12 +56,11 @@ body,#wrap{width:100%;}
 .ad6_info_text .t1{margin-top:60px;font-weight:bold;font-size:40px;color:black;line-height:50px;}
 .ad6_info_text .t2{margin-top:30px;font-size:25px;color:#000d1d;}
 .ad6_list{overflow: hidden;}
-.ad6_list div{float:left;margin-bottom:80px;margin-right:59px;width:360px;border: 1px solid #dcdcdc;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;}
+.ad6_list div{float:left;margin-bottom:80px;margin-right:59px;width:360px}
 .ad6_list div:last-child{margin-right:0}
 .ad6_list div:nth-child(2),.ad6_list div:nth-child(5){margin-top:110px}
-.ad6_list h3{font-size:40px;font-weight:bold;color:black;margin:30px 0;padding: 0 20px;}
-.ad6_list p{font-size:19px;color:#000d1d;line-height:30px;padding: 0 20px;}
-.ad6_list p:last-child{padding-bottom: 30px;}
+.ad6_list h3{font-size:40px;font-weight:bold;color:black;margin:30px 0}
+.ad6_list p{font-size:19px;color:#000d1d;line-height:30px;}
 .ad6 .btn{text-align:center;margin-top:75px;}
 .ad_product_wrap{width:100%;background:#f3f7fa;padding:120px 0;height:1100px;}
 .ad_product_text{width:1200px;margin:0 auto;text-align:center;}
@@ -217,7 +216,8 @@ dd{color:#666;padding:50px;font-size:20px;line-height:34px;border-top:1px solid 
 .ad6_list .innerborder{
   position: relative;
   display: block;
-  padding-bottom: 146.3%;
+  width: 360px;
+  height: 527px;
   margin-bottom: 20px;
   box-sizing: border-box;
   background-position: 50% 50%;
