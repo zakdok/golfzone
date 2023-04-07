@@ -70,7 +70,7 @@ body,#wrap{width:100%;height:100%}
 .footer div:first-child p{color:#7d7d7d;font-size:15px;line-height:26px;}
 .footer div:first-child p span{margin-left:20px;}
 .footer div:first-child p span a{color:#50718a;font-weight:bold;}
-.copyright{font-size:11px !important;color:#7d7d7d !important;font-family:'Montserrat' !important;font-weight:normal !important;opacity:.5;}
+.copyright{font-size:11px !important;color:#7d7d7d !important;font-weight:normal !important;opacity:.5;}
 .footer div:last-child{padding-top:30px}
 #floatMenu{position: absolute;z-index:100;
 
@@ -95,7 +95,7 @@ body,#wrap{width:100%;height:100%}
 .movie_wrap{margin-top:40px;width:100%;height:675px;}
 .practice_info_wrap{margin-top:90px;overflow: hidden;}
 .practice_info_wrap dl{float:left;width:calc(20% - 30px);padding-left:30px;font-size: 0;}
-.practice_info_wrap dt{display: inline-block;position: relative;padding-left: 30px;color:#f7941c;font-family:'Montserrat' !important;font-size:25px;font-weight:bold;width:auto !important;text-decoration:underline;text-align: left;line-height: 1.5 !important;}
+.practice_info_wrap dt{display: inline-block;position: relative;padding-left: 30px;color:#f7941c;font-size:25px;font-weight:bold;width:auto !important;text-decoration:underline;text-align: left;line-height: 1.5 !important;}
 .practice_info_wrap dt img{position: absolute;left: 0;top: 8px;}
 .practice_info_wrap dd{margin-top:40px;font-size:20px;font-weight:bold;}
 .practice_info_wrap dd span{font-weight:normal;font-size:18px;color:#222;margin-top:20px;display:block;line-height:30px;}
@@ -127,7 +127,7 @@ body,#wrap{width:100%;height:100%}
 .sub_text_p{font-size:19px;margin-top:40px}
 
 /* faq */
-.cont_length{border-bottom:2px solid #000;padding-bottom:10px;font-size:23px;font-weight:bold;font-family:'Montserrat' !important;float:left;}
+.cont_length{border-bottom:2px solid #000;padding-bottom:10px;font-size:23px;font-weight:bold;float:left;}
 .marketing_wrap{width:1200px;margin:0 auto;clear:both;}
 .marketing{float:left;width:31%;margin:50px 27px 50px 0;border:1px solid #dcdcdc;background:white;overflow: hidden;cursor:pointer;}
 .marketing:last-child{margin-right:0;}
@@ -135,7 +135,7 @@ body,#wrap{width:100%;height:100%}
 .marketing_info_text{margin-top:40px;margin-left:20px;margin-bottom:40px}
 .marketing_info_text h2{font-size:30px;font-weight:bold;margin-bottom:20px;}
 .marketing_info_text p{font-size:18px;height:115px;line-height:28px;}
-.marketing_info_text span{font-family:'Montserrat' !important;font-size:15px}
+.marketing_info_text span{font-size:15px}
 .marketing.on{border:1px solid #006eb7;-webkit-box-shadow: 3px 6px 13px 0px rgba(0,0,0,0.16);
 	-moz-box-shadow: 3px 6px 13px 0px rgba(0,0,0,0.16);
 	box-shadow: 3px 6px 13px 0px rgba(0,0,0,0.16);}
@@ -334,6 +334,9 @@ body,#wrap{width:100%;height:100%}
 .pop_campain .swiper .swiper-slide{
 	padding: 0 74px;
 }
+.pop_campain .swiper .swiper-slide img{
+	max-width: 100%;
+}
 .column {
 	display: block;
 	flex-basis: 0;
@@ -356,3 +359,4 @@ body,#wrap{width:100%;height:100%}
 	margin: 0.75em;
 	padding-left: 0.75em;
 }
+

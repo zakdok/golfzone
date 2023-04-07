@@ -50,9 +50,9 @@ img {
 #content .ad_slide_wrap .info_text_wrap h2{font-size:1.6rem;font-weight:bold;line-height:2.4rem;}
 #content .ad_slide_wrap .info_text_wrap p{font-size:1.1rem;line-height:2rem;color:#000d1d;margin-top:1.5rem}
 #content .ad_slide_wrap .swiper-slide:first-child{padding-left:1.8rem}
-#content .ad_slide_wrap .ad_slide h3{font-weight:bold;font-size:1.6rem;margin:1.5rem 0}
+#content .ad_slide_wrap .ad_slide h3{font-weight:bold;font-size:1.6rem;margin:1.5rem 0;}
 #content .ad_slide_wrap .ad_slide p{font-size:14px;margin-bottom:10px;letter-spacing:-1px;}
-#content .ad_slide_wrap .ad_slide p:last-child{margin-bottom:0}
+#content .ad_slide_wrap .ad_slide p:last-child{margin-bottom:0;}
 .ad_btn{text-align:center;margin-top:7rem;margin-bottom:1.2rem;}
 .ad_btn img{width:13rem;}
 #content .slide_4st_wrap{background:#f3f7fa;padding:3rem 0;}
