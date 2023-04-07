@@ -334,3 +334,25 @@ body,#wrap{width:100%;height:100%}
 .pop_campain .swiper .swiper-slide{
 	padding: 0 74px;
 }
+.column {
+	display: block;
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding: 0.75rem;
+}
+.menu-list a {
+	border-radius: 2px;
+	color: #4a4a4a;
+	display: block;
+	padding: 0.5em 0.75em;
+}
+.menu-list a.is-active {
+	background-color: #3273dc;
+	color: #fff;
+}
+.menu-list li ul {
+	border-left: 1px solid #dbdbdb;
+	margin: 0.75em;
+	padding-left: 0.75em;
+}
