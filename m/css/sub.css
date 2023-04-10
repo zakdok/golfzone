@@ -342,3 +342,7 @@ html,body{height:100%;}
     padding-left: 0.75em;
 }
 
+
+.sub_slide_wrap_champ .swiper-container{
+	overflow: hidden;
+}
